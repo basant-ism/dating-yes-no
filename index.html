@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <pre>
+        Dear Mona!!!,
+        I know ke tum kabhi ha nhi bolonge, 
+        But kese ne muje kabhi kha tha ke ladkiya always notice the effort.
+        So effort daalne mai kya he jata hai!!!
+        Hope one day you will understand my fellings and efforts.
+      </pre>
+      <div>
+        <h1 class="header_text">Do you wanna go out on date with me?</h1>
+      </div>
+      <p>
+        <a
+          href="https://www.instagram.com/basant5771?utm_source=qr&igsh=cTI4dmExN2I3dHll"
+          >@basant_iitian</a
+        >
+      </p>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/pdNqPxx1/milk-and-mocha-cute.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+        <button
+          class="btn"
+          id="noButton"
+          onmouseover="moveButton()"
+          onclick="moveButton()"
+        >
+          No
+        </button>
+
+        <script>
+          function nextPage() {
+            window.location.href = "yes.html";
+          }
+
+          function moveButton() {
+            var x =
+              Math.random() *
+              (window.innerWidth -
+                document.getElementById("noButton").offsetWidth);
+            var y =
+              Math.random() *
+              (window.innerHeight -
+                document.getElementById("noButton").offsetHeight);
+            document.getElementById("noButton").style.left = `${x}px`;
+            document.getElementById("noButton").style.top = `${y}px`;
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
