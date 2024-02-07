@@ -22,7 +22,7 @@ body {
 
 .header_text {
   font-family: "Nunito";
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
 
   text-align: center;
@@ -76,6 +76,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+img {
+  width: 60vw;
+  border-radius: 10px;
+}
 p {
   color: white;
   margin-left: 50%;
@@ -89,6 +93,6 @@ p a {
 
 .container pre {
  color: white;
- font-size: 10px;
+ font-size: 20px;
  font-style: italic;
 }
